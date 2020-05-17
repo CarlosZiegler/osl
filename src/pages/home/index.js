@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import Menu from '../../components/shared/menu'
 import Header from '../../components/header'
 import SectionProduct from '../../components/sectionProduct'
@@ -15,12 +16,26 @@ function home() {
         <>
             <Menu />
             <Header />
+
             <SectionProduct />
+
+
             <SectionServices />
+
+
             <SectionNews />
+
+
             <SectionJobs />
+
+
+
             <SectionTeam />
+
+
             <SectionContact />
+
+
             <Footer />
         </>
     )

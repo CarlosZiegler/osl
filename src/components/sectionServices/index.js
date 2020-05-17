@@ -33,7 +33,7 @@ function sectionServices() {
 
     return (
         <>
-            <div className="section-container text-primary bg-white">
+            <div id="services" className="section-container text-primary bg-white">
                 <div className="section-title">
                     <h2 className="title">Gemeinsam mehr erreichen</h2>
                     <div className="card-img">

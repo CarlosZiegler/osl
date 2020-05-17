@@ -17,7 +17,7 @@ function SectionTeam() {
 
     return (
         <>
-            <div className="section-container text-secundary bg-blue">
+            <div id="team" className="section-container text-secundary bg-blue">
                 <h2 className="title">Unsere Team</h2>
                 <div className="lottieFile">
                     <Lottie options={defaultOptions}

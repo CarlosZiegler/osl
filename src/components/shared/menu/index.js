@@ -11,7 +11,7 @@ function header() {
         <>
             <header>
                 <img src={Logo} alt="OSL" />
-                <MenuButton className="menu-btn" />
+                <MenuButton />
             </header>
         </>
     )

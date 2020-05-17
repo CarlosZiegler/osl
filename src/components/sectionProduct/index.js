@@ -14,7 +14,7 @@ function SectionProducts() {
 
     return (
         <>
-            <div className="section-container text-secundary bg-blue">
+            <div id="products" className="section-container text-secundary bg-blue">
                 <h2 className="title">Unsere Produkte</h2>
                 <div className="cards-section">
                     <Card

@@ -1,21 +1,26 @@
 import React from 'react';
+
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 
 import btnMenu from '../../../../assets/MenuButton.svg'
 
+import './style.css'
+
 
 export default function SimpleMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);
 
     const handleClick = (event) => {
-        setAnchorEl(event.currentTarget);
-    };
+        setAnchorEl(event.currentTarget)
+    }
 
     const handleClose = () => {
-        setAnchorEl(null);
-    };
+        setAnchorEl(null)
+    }
+
+
 
     return (
         <div>
@@ -29,9 +34,12 @@ export default function SimpleMenu() {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
             >
-                <MenuItem onClick={handleClose}>Profile</MenuItem>
-                <MenuItem onClick={handleClose}>My account</MenuItem>
-                <MenuItem onClick={handleClose}>Logout</MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#products"> Produkte</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#services">Leistungen</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#news">Aktuelles</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#jobs">Arbeiten bei OSL</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#team">Unsere Team</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#contact">Kontakt</a></MenuItem>
             </Menu>
         </div>
     );

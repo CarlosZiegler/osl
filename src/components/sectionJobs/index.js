@@ -16,7 +16,7 @@ function SectionJobs() {
 
     return (
         <>
-            <div className="section-container text-primary bg-white">
+            <div id="jobs" className="section-container text-primary bg-white">
                 <h2 className="title">Arbeiten bei OSL</h2>
                 <div className="lottieFile">
                     <Lottie options={defaultOptions}

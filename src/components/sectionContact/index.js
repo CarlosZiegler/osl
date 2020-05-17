@@ -16,7 +16,7 @@ function SectionContact() {
 
     return (
         <>
-            <div className="section-container text-primary bg-white">
+            <div id="contact" className="section-container text-primary bg-white">
                 <h2 className="title">Kontakt</h2>
                 <div className="lottieFile">
                     <Lottie options={defaultOptions}
@@ -34,7 +34,7 @@ function SectionContact() {
                         <input className="contact-input" type="email" placeholder="Email" />
                         <input className="contact-input" type="text" placeholder="Betreff" />
                         <textarea className="contact-input" placeholder="Nachricht" rows={4} />
-                        <input className="contact-input contact-button" type="submit" placeholder="Senden" />
+                        <input className="contact-input contact-button" type="submit" value="Senden" />
                     </form>
                 </div>
             </div>

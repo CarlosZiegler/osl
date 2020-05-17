@@ -16,7 +16,7 @@ function SectionNews() {
 
     return (
         <>
-            <div className="section-container text-secundary bg-blue">
+            <div id="news" className="section-container text-secundary bg-blue">
                 <h2 className="title">Aktuelles</h2>
                 <div className="lottieFile">
                     <Lottie options={defaultOptions}
