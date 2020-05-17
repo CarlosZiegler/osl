@@ -1,0 +1,17 @@
+.title {
+    text-align:center;
+    margin:15px 0;
+}
+.description{
+    text-align:justify;
+    margin:15px 0;
+}
+.section-container{
+    display:flex;
+    flex-direction:column
+  }
+.cards-section{
+    display:flex;
+    flex-wrap: wrap;
+}
+
