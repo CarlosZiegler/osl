@@ -15,7 +15,7 @@ function header() {
 
     return (
         <>
-            <div className="lottieFile">
+            <div className="lottieFile-header">
                 <Lottie options={defaultOptions}
                     height={"100%"}
                     width={"100%"}

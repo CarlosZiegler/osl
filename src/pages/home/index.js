@@ -8,6 +8,7 @@ import SectionNews from '../../components/sectionNews'
 import SectionJobs from '../../components/sectionJobs'
 import SectionTeam from '../../components/sectionTeam'
 import SectionContact from '../../components/sectionContact'
+import Footer from '../../components/footer'
 
 function home() {
     return (
@@ -20,6 +21,7 @@ function home() {
             <SectionJobs />
             <SectionTeam />
             <SectionContact />
+            <Footer />
         </>
     )
 }

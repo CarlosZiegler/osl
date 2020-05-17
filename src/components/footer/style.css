@@ -1,0 +1,27 @@
+
+
+.footer-container{
+  display:block;
+  flex-wrap: nowrap;  
+  justify-content: start;
+  align-items: center;
+  padding:15px;
+    
+}
+
+.footer-contact{
+  display:block;
+}
+.footer-info{
+  margin: 10px 0;
+}
+.footer-info img{
+  width: 40px;
+}
+.footer-reserved{
+  text-align:center;
+  border-top: 1px solid #ffffff;
+  padding: 10px 0;
+  color: #c9c9c9;
+  font-size: small;
+}
