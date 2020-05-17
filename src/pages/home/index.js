@@ -7,6 +7,7 @@ import SectionServices from '../../components/sectionServices'
 import SectionNews from '../../components/sectionNews'
 import SectionJobs from '../../components/sectionJobs'
 import SectionTeam from '../../components/sectionTeam'
+import SectionContact from '../../components/sectionContact'
 
 function home() {
     return (
@@ -18,6 +19,7 @@ function home() {
             <SectionNews />
             <SectionJobs />
             <SectionTeam />
+            <SectionContact />
         </>
     )
 }
