@@ -9,7 +9,7 @@ function Footer() {
     return (
         <>
             <div className="footer-container text-secundary bg-blue">
-                <div className="footer-info">
+                <div className="footer-info ">
                     <img src={LogoLinkedin} alt="Linkedin" />
                 </div>
                 <div className="footer-info">

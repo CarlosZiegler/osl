@@ -1,16 +1,17 @@
 import React from 'react'
 
 import Logo from '../../../assets/Logo.svg'
-import MenuButton from '../../../assets/MenuButton.svg'
+import MenuButton from './menuButton'
 
 import './style.css'
 
 function header() {
+
     return (
         <>
             <header>
                 <img src={Logo} alt="OSL" />
-                <img src={MenuButton} alt="menu" />
+                <MenuButton className="menu-btn" />
             </header>
         </>
     )
