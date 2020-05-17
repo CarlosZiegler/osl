@@ -3,8 +3,8 @@ import Lottie from 'react-lottie';
 
 import loadingDataTogether from '../../assets/lotties/20185-all-fits-together.json'
 import loadingDataPartner from '../../assets/lotties/16952-group-working.json'
-import loadingDataCooperator from '../../assets/lotties/16952-group-working.json'
-import loadingDataConsulting from '../../assets/lotties/11497-interface.json'
+import loadingDataCooperator from '../../assets/lotties/15255-marketing-analytics.json'
+import loadingDataConsulting from '../../assets/lotties/18365-animaton-for-e-learning-web-site.json'
 
 import './style.css'
 
@@ -77,7 +77,7 @@ function sectionServices() {
                     <div className="service-description text-secundary bg-blue">
                         <h3 className="title">Schulungen</h3>
                         <p className="title">
-                            Im Rahmen des OSL Partnerprogramms bietet OSL, beginnend von vertrieblich orientierten Veranstaltungen über Expertenseminare bis hin zu Zertifizierungsworkshops.</p>
+                            Im Rahmen des OSL Partnerprogramms bietet OSL, beginnend von vertrieblich orientierten Veranstaltungen über Expertenseminare bis hin zu Workshops.</p>
                     </div>
                 </div>
             </div>

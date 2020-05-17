@@ -1,7 +1,7 @@
 import React from 'react'
 import Lottie from 'react-lottie';
 
-import loadingData from '../../assets/lotties/15255-marketing-analytics.json'
+import loadingData from '../../assets/lotties/8941-graficos-animados-com-homens-observando.json'
 
 import './style.css'
 
