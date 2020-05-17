@@ -6,6 +6,7 @@ import SectionProduct from '../../components/sectionProduct'
 import SectionServices from '../../components/sectionServices'
 import SectionNews from '../../components/sectionNews'
 import SectionJobs from '../../components/sectionJobs'
+import SectionTeam from '../../components/sectionTeam'
 
 function home() {
     return (
@@ -16,6 +17,7 @@ function home() {
             <SectionServices />
             <SectionNews />
             <SectionJobs />
+            <SectionTeam />
         </>
     )
 }
