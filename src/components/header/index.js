@@ -14,7 +14,7 @@ function header() {
     };
 
     return (
-        <>
+        <div className="section-header">
             <div className="lottieFile-header">
                 <Lottie options={defaultOptions}
                     height={"100%"}
@@ -28,7 +28,7 @@ function header() {
                 definiert OSL mit einem eigenen Softwarestack seit 16 Jahren die
             Spitze des Machbaren.</p>
             </div>
-        </>
+        </div>
     )
 }
 
