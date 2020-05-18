@@ -7,10 +7,13 @@
     margin:15px 0;
 }
 .lottieFile-header{
-    width: 80%;
+    width: 100%;
     margin:0 auto;
 }
 .section-header{
-    height: 90vh;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
 }
 
