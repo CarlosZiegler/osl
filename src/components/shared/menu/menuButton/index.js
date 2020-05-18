@@ -23,6 +23,7 @@ export default function SimpleMenu() {
 
 
     return (
+
         <div>
             <Button color="primary" aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
                 <img src={btnMenu} alt="Open Menu" />

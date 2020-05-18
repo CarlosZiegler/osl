@@ -16,26 +16,12 @@ function home() {
         <>
             <Menu />
             <Header />
-
             <SectionProduct />
-
-
             <SectionServices />
-
-
             <SectionNews />
-
-
             <SectionJobs />
-
-
-
             <SectionTeam />
-
-
             <SectionContact />
-
-
             <Footer />
         </>
     )
