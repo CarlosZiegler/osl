@@ -35,12 +35,12 @@ export default function SimpleMenu() {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
             >
-                <MenuItem onClick={handleClose}><a href="/#products"> Produkte</a></MenuItem>
-                <MenuItem onClick={handleClose}><a href="/#services">Leistungen</a></MenuItem>
-                <MenuItem onClick={handleClose}><a href="/#news">Aktuelles</a></MenuItem>
-                <MenuItem onClick={handleClose}><a href="/#jobs">Arbeiten bei OSL</a></MenuItem>
-                <MenuItem onClick={handleClose}><a href="/#team">Unsere Team</a></MenuItem>
-                <MenuItem onClick={handleClose}><a href="/#contact">Kontakt</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#products" className="menu-item"> Produkte</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#services" className="menu-item">Leistungen</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#news" className="menu-item">Aktuelles</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#jobs" className="menu-item">Arbeiten bei OSL</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#team" className="menu-item">Unsere Team</a></MenuItem>
+                <MenuItem onClick={handleClose}><a href="/#contact" className="menu-item">Kontakt</a></MenuItem>
             </Menu>
         </div>
     );
