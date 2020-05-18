@@ -1,3 +1,4 @@
-a{
-    text-decoration: none
+a, a:link, a:visited {
+    text-decoration: none;
+    color:#00008e
 }

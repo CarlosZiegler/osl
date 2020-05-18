@@ -1,6 +1,6 @@
 import React from 'react'
 
-import LogoLinkedin from '../../assets/linkedin.svg'
+import LogoLinkedin from '../../../assets/linkedin.svg'
 
 import './style.css'
 

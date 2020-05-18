@@ -9,7 +9,7 @@ import SectionNews from '../../components/sectionNews'
 import SectionJobs from '../../components/sectionJobs'
 import SectionTeam from '../../components/sectionTeam'
 import SectionContact from '../../components/sectionContact'
-import Footer from '../../components/footer'
+import Footer from '../../components/shared/footer'
 
 function home() {
     return (
