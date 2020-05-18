@@ -23,7 +23,7 @@ function header() {
             </div>
             <div className="text-container text-primary">
                 <h3 className="title">Das Rechenzentrum der Zukunft</h3>
-                <p className="description">Als eines der wenigen deutschen Technologie- und
+                <p className="description">Als eines der wenigen deutschen Technologie und
                 Entwicklungsunternehme im Bereich Virtual Storage und Clustering
                 definiert OSL mit einem eigenen Softwarestack seit 16 Jahren die
             Spitze des Machbaren.</p>

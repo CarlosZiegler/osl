@@ -7,13 +7,20 @@
     margin:15px 0;
 }
 .lottieFile-header{
-    width: 100%;
+    width: 50%;
     margin:0 auto;
 }
-.section-header{
+@media screen and (max-width:450px){
+    .section-header {
     height: 100vh;
     display:flex;
     flex-direction:column;
-    justify-content: center;
+    justify-content: space-around;
+    }
+    .lottieFile-header{
+        width: 100%;
+        margin:0 auto;
+    }
 }
+
 
